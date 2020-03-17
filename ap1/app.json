@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "image_editor",
+    "slug": "image_editor",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icons/fd.png",
+    "splash": {
+      "image": "./assets/images/example_images/image2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.octaviotastico.image_editor"
+    }
+  }
+}
